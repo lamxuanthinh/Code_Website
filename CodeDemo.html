@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Demo</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        input {
+            width: 90px;
+            height: 33px;
+            display: inline;
+        }
+        li {
+            list-style-type: none;
+        }
+        p {
+            display: inline;
+        }
+        li:nth-child(3) {
+            margin-left: auto;
+        }
+        ul {
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            background-color: lightgreen;
+        }
+        img.logo {
+            width: 33px;
+            height: 33px;
+        }
+        img.imageHome {
+            width: 600px;
+            height: 400px ;
+            border-radius: 20px;
+        }
+        div.textHome {
+            position: absolute;
+            left: 2%;
+            bottom: 35%;
+        }
+        div.imageHome {
+            position: absolute;
+            bottom: 10%;
+            left: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div>
+            <ul>
+                <li>
+                    <img class="logo" src="image_logo/logoTc.jpg" alt="logo">
+                </li>
+                <li>
+                    <p style="color: aliceblue;font-size: 30px;font-family:sans-serif;">TC-COVID</p>
+                </li>
+                <li>
+                    <input style="border-radius: 5px;color: darkgreen;" type="button" value="Đăng Nhập">
+                    <input style="border-radius: 5px;color: darkgreen;" type="button" value="Đăng Ký">
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div class="textHome">
+                <p style="color: aliceblue;font-size: 50px;font-family:sans-serif;">TC-COVID</p><br>
+                <p  style="color: aliceblue;font-size: 30px;font-family:sans-serif;"> Website hỗ trợ tiêm chủng Covid-19</p>
+            </div>
+            <div class="imageHome">
+                <img class="imageHome" src="image_logo/imageHome.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

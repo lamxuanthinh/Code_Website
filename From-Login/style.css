@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.gradient-custom {
+    background: url("bg.png"), -webkit-linear-gradient(bottom,#2c3d4f, #19bc9c);
+    }
+
+.btn-background {
+    background-color: #19bc9c;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-background:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.title-form {
+    text-align: left;
+}
+
+html {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.font-heading {
+    font-size: 35px;
+    font-weight: 600!important;
+}
